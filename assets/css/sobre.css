@@ -1,0 +1,28 @@
+body {
+  font-family: 'Poppins', sans-serif !important;
+  color: #0f1e3d; }
+  body div {
+    display: block; }
+
+.proyecto {
+  background-color: #0f1e3d; }
+
+p {
+  font-family: 'Poppins', sans-serif !important; }
+
+.proyectos {
+  margin-top: -20vh; }
+
+.titulo {
+  margin-top: -10vh; }
+  .titulo img {
+    width: 5vh; }
+
+.contenido {
+  margin-top: -10vh; }
+
+.actividades img {
+  width: 10vh;
+  margin: 5vh 5vh 5vh 5vh; }
+
+/*# sourceMappingURL=sobre.css.map */
