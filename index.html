@@ -1,54 +1,180 @@
-<!DOCTYPE html>
-<html lang="">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/banner.css">
-    <link rel="stylesheet" href="assets/css/main.css">
-</head>
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Analin Flores</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<body>
-    <div class="container imagen">
-   
-    <img src="assets/img/buenoLogo.png" alt="">
-    </div>
-    <!--    MENU HAMBURGESA-->
-    <div class="button_container" id="toggle">
-      <span class="top"></span>
-      <span class="middle"></span>
-      <span class="bottom"></span>
-    </div>
+		<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 
-    <div class="overlay" id="overlay">
-      <nav class="overlay-menu">
-        <ul>
-          <li ><a href="#">Home</a></li>
-          <li><a href="sobreMi.html">Sobre mi</a></li>
-          <li><a href="proyectos.html">Proyectos</a></li>
-          <li><a href="#">Habilidades</a></li>
-        </ul>
-      </nav>
-    </div>
-    <div class="content">
-          <div class="content__container">
-            <p class="content__container__text">
-              HOLA 
-            </p>
 
-            <ul class="content__container__list">
-             <li class="content__container__list__item">MUNDO!!</li>
-              <li class="content__container__list__item">CODING</li>
-              <li class="content__container__list__item">DESAFIOS</li>
-              <li class="content__container__list__item">SOY:</li>
-            </ul>
-          </div>
-          
-    </div>
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/skills.css"/>
+	</head>
+	<body class="landing">
+			<div id="page-wrapper">
+					<header id="header" class="alt">
+						<h1><a href="index.html">Analin Flores</a></h1>
+						<nav id="nav">
+							<ul>
+								<li class="special">
+									<a href="#menu" class="menuToggle"><span>Menu</span></a>
+									<div id="menu">
+										<ul>
+											<li><a href="#banner">Principal</a></li>
+											<li><a href="#sobreMi">Sobre mí</a></li>
+											<li><a href="#proeyectos">Proyectos</a></li>
+											<li><a href="#">Habilidades</a></li>
+											<li><a href="#">Contacto</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</nav>
+					</header>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/0.1.12/wow.min.js"></script>
-<script src="assets/js/app.js"></script>
-</body>
+				<!-- Banner -->
+					<section id="banner">
+						<div class="inner">
+							<h2>Analin Flores</h2>
+							<p>Front-end developer <br />
+							e<br />
+							Ingeniera en software</p>
+							<ul class="actions">
+								<li><a href="#" class="button special">CV</a></li>
+							</ul>
+						</div>
+						<a href="#sobreMi" class="more scrolly">Más sobre mí</a>
+					</section>
+
+				<!-- One -->
+					<section id="sobreMi" class="wrapper style1 special">
+						<div class="inner">
+							<header class="major">
+								<h2>Hola!!! <br />
+								Soy Analin Flores</h2>
+								<p>Soy <strong>front-end developer</strong> e <strong>ingeniera en software</strong> con experiencia en desarrollo  web<br />
+								y  diseño web adaptable,me gusta explorar y aprender algo nuevo siempre.</p>
+								<p>Una apasionada de las palomitas de maíz, soñadora de tiempo completo,<br/> potterica de corazón , bibliófila(me encanta leer libros) y jugar videojuegos. </p>
+							</header>
+							<span class="presentacion">
+								<img src="images/MEX20171092.JPG" style="width:50%">
+							</span>
+							<ul class="icons major">
+								<li><span class="icon fa-book major style1"><span class="label">Lorem</span></span></li>
+								<li><span class="icon fa-heart-o major style2"><span class="label">Ipsum</span></span></li>
+								<li><span class="icon fa-code major style3"><span class="label">Dolor</span></span></li>
+							</ul>
+						</div>
+					</section>
+
+				<!-- Two -->
+					<section id="proyectos" class="wrapper alt style2 special">
+						<header class="major">
+							<h2> <br />
+							proyectos</h2>
+						</header>
+
+
+						<section class="spotlight">
+							<div class="image"><img src="images/ahorcado.png" alt="" /></div><div class="content">
+								<h2>Ahorcado<br />
+								</h2>
+								<p>Proyecto colaborativo. <br/>El objetivo es replicar el clásico juego del ahorcado. El usuario tiene oportunidades de adivinar la palabra correspondiente a la imagen, mostrada en pantalla.</p>
+
+							<a href="https://ilsecentenoz.github.io/Kaizen-ahorcado/" class="button">Demo</a>
+							</div>
+						</section>
+						<section class="spotlight">
+							<div class="image"><img src="images/antojo.png" alt="" /></div><div class="content">
+								<h2>Con antojo mx<br />
+								</h2>
+								<p>Proyecto individual. <br/> El objetivo es utilizar la api de geolocalización de Google. El usuario obtine su ubicación actual , se muestra un listado de  restaurantes dependiendo la categoría elegida y se muestra la dirección correspondiente de el restaurante elegido. </p>
+								<a href="https://any28flo.github.io/conAntojoMx/" class="button">Demo</a>
+
+							</div>
+						</section>
+						<section class="spotlight">
+							<div class="image"><img src="images/google.png" alt="" /></div><div class="content">
+								<h2>Google design<br />
+								</h2>
+								<p>Proyecto individual. <br/>El objetivo es utilizar BEM y directivas de control de Sass, mientras se replica un diseño preeestablecido de Google </p>
+								<a href="https://any28flo.github.io/designGoogle/" class="button">Demo</<a href=""></a>
+							</div>
+						</section>
+					</section>
+
+				<!-- Three -->
+					<section id="three" class="wrapper style3 special">
+						<div class="inner">
+							<header class="major">
+								<h2>Habilidades</h2>
+
+							</header>
+							<ul class="features">
+								<li class="icon fa-flag-o">
+									<h3>Lenguanjes de programacion</h3>
+									<div class="skillbar clearfix " data-percent="20%">
+										<div class="skillbar-title" style="background: #d35400;"><span>HTML5</span></div>
+										<div class="skillbar-bar" style="background: #e67e22;"></div>
+										<div class="skill-bar-percent">Avanzado</div>
+									</div> <!-- End Skill Bar -->
+									<div class="skillbar clearfix " data-percent="75%">
+										<div class="skillbar-title" style="background: #46465e;"><span>PHP</span></div>
+										<div class="skillbar-bar" style="background: #5a68a5;"></div>
+										<div class="skill-bar-percent">40%</div>
+									</div>
+									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+								</li>
+								<br/>
+							</ul>
+							<ul class="features">
+								<li class="icon fa-flag-o">
+									<h3>Tortor Ut</h3>
+									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+								</li>
+								<br/>
+							</ul>
+						</div>
+					</section>
+
+				<!-- CTA -->
+					<section id="cta" class="wrapper style4">
+						<div class="inner">
+							<header>
+								<h2>Habilidades </h2>
+								<p>Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla.</p>
+							</header>
+							<ul class="actions vertical">
+								<li><a href="#" class="button fit special">Activate</a></li>
+								<li><a href="#" class="button fit">Learn More</a></li>
+							</ul>
+						</div>
+					</section>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="icons">
+							<li><a href="https://github.com/Any28Flo" class="icon fa-github"><span class="label">Github</span></a></li>
+							<li><a href="https://www.linkedin.com/in/analin-flores/" class="icon fa-linkedin"><span class="label">Linkedin</span></a></li>
+
+						</ul>
+						<ul class="copyright">
+							<li>&copy; Analin Flores</li><li> Made with code, made whith love</li>
+						</ul>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+			<script src="assets/js/skills.js"></script>
+
+	</body>
 </html>
