@@ -1,0 +1,24 @@
+{
+  "name": "analin_flores",
+  "version": "1.0.0",
+  "description": "Herramientas utilizadas: -HTML5 -CSS3 -JAVASCRIPT Erika Analin Flores González</h1> Contacto Teléfono: (045)7227024552 Correro: foglzerika@gmail.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Any28Flo/analin_flores.git"
+  },
+  "author": "Analin Flores",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Any28Flo/analin_flores/issues"
+  },
+  "homepage": "https://github.com/Any28Flo/analin_flores#readme",
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-watch": "^1.1.0"
+  }
+}
